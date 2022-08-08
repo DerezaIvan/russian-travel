@@ -1,0 +1,6 @@
+.footer__content_info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}

@@ -1,0 +1,5 @@
+.list__item{
+    list-style-type: none;
+    display: flex;
+    line-height: 18px;
+}

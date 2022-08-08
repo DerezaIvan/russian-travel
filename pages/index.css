@@ -1,0 +1,57 @@
+/*Стили*/
+@import url(/dev/russian-travel/vendor/normalize.css);
+@import url(/dev/russian-travel/blocks/page/page.css);
+@import url(/dev/russian-travel/blocks/fonts/fonts.css);
+@import url(/dev/russian-travel/body/body.css);
+
+/*Header*/
+@import url(/dev/russian-travel/blocks/header/header.css);
+@import url(/dev/russian-travel/blocks/logo__header/logo__header.css);
+@import url(/dev/russian-travel/blocks/lang/lang__link.css);
+@import url(/dev/russian-travel/blocks/lang/lang__rus.css);
+@import url(/dev/russian-travel/blocks/lang/lang__eng.css);
+
+/*Lead*/
+@import url(/dev/russian-travel/blocks/lead/lead.css);
+@import url(/dev/russian-travel/blocks/lead/__title/lead__title.css);
+@import url(/dev/russian-travel/blocks/lead/__subtitle/lead__subtitle.css);
+@import url(/dev/russian-travel/blocks/lead/lead__illustration/lead__illustration.css);
+@import url(/dev/russian-travel/blocks/lead/__text/lead__text.css);
+
+/*Intro*/
+@import url(/dev/russian-travel/blocks/intro/intro.css);
+@import url(/dev/russian-travel/blocks/intro/__title/intro__title.css);
+@import url(/dev/russian-travel/blocks/intro/__text/intro__text.css);
+@import url(/dev/russian-travel/blocks/list/list.css);
+@import url(/dev/russian-travel/blocks/list/__item/list__item.css);
+@import url(/dev/russian-travel/blocks/list/__title/list__title.css);
+@import url(/dev/russian-travel/blocks/list/__text/list__text.css);
+
+/*Photo*/
+@import url(/dev/russian-travel/blocks/photo/photo.css);
+@import url(/dev/russian-travel/blocks/photo/-grid/photo-grid.css);
+
+/*Places*/
+@import url(/dev/russian-travel/blocks/places/places.css);
+@import url(/dev/russian-travel/blocks/place/place.css);
+@import url(/dev/russian-travel/blocks/place/__title/place__title.css);
+@import url(/dev/russian-travel/blocks/place/__website/place__website.css);
+@import url(/dev/russian-travel/blocks/place/__website/place__website_heading.css);
+@import url(/dev/russian-travel/blocks/place/__website/place__website_link.css);
+@import url(/dev/russian-travel/blocks/place/content/place__content.css);
+@import url(/dev/russian-travel/blocks/place/content/place__content_illustration.css);
+@import url(/dev/russian-travel/blocks/place/content/place__conten_paragraphs.css);
+@import url(/dev/russian-travel/blocks/place/content/place__content_paragraph.css);
+
+/*Cover*/
+@import url(/dev/russian-travel/blocks/cover/cover.css);
+@import url(/dev/russian-travel/blocks/cover/__link/cover__link.css);
+@import url(/dev/russian-travel/blocks/cover/__title/cover__title.css);
+@import url(/dev/russian-travel/blocks/cover/__subtitle/cover__subtitle.css);
+
+/*Footer*/
+@import url(/dev/russian-travel/blocks/footer/footer.css);
+@import url(/dev/russian-travel/blocks/footer/__content/_info/footer__content_info.css);
+@import url(/dev/russian-travel/blocks/footer/__links/footer__links.css);
+@import url(/dev/russian-travel/blocks/footer/__link/footer__link.css);
+@import url(/dev/russian-travel/blocks/footer/__copyright/footer__copyright.css);
