@@ -10,3 +10,25 @@ margin: 0;
 .place__content_paragraph:last-child{
     margin: 26px 0 0 ;
 }
+
+@media screen and (max-width: 1024px){
+    .place__content_paragraph{
+        max-width: 456px;
+        
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .place__content_paragraph{
+        max-width: 352px;
+        font-size: 16px;
+        margin-top: 32px auto 0 auto;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .place__content_paragraph{
+        max-width: 388px;
+    }
+    
+}

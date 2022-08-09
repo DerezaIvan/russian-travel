@@ -6,3 +6,16 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 16px;
 }
+
+@media screen and (max-width: 768px){
+    .photo{
+        margin: 88px auto;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .photo{
+      margin: 58px auto;
+    }
+    
+}

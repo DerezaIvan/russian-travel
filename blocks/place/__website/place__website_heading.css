@@ -6,3 +6,15 @@ line-height: 12px;
 letter-spacing: 2px;
 color: #AAAAAA;
 }
+@media screen and (max-width: 768px){
+    .place__website_heading{
+        max-width: 352px;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .place__website_heading{
+        max-width: 288px;
+    }
+    
+}

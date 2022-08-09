@@ -5,3 +5,9 @@
     margin: 0;
     text-decoration: underline;
 }
+@media screen and (max-width: 320px){
+    .lang__rus {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

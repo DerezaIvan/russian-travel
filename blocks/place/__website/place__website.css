@@ -2,3 +2,19 @@
 position: relative;
 left: 500px;
 }
+@media screen and (max-width: 768px){
+    .place__website{
+        position: relative;
+        left: 0;
+        top: 64px;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .place__website{
+        position: relative;
+        left: 0;
+        top: 64px;
+    }
+    
+}
