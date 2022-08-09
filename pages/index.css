@@ -2,7 +2,7 @@
 @import url(/dev/russian-travel/vendor/normalize.css);
 @import url(/dev/russian-travel/blocks/page/page.css);
 @import url(/dev/russian-travel/blocks/fonts/fonts.css);
-@import url(/dev/russian-travel/body/body.css);
+@import url(/dev/russian-travel/blocks/body/body.css);
 
 /*Header*/
 @import url(/dev/russian-travel/blocks/header/header.css);
