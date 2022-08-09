@@ -15,7 +15,7 @@
          url("/dev/russian-travel/vendor/fonts/Inter-Bold.woff2") format('woff2');
     font-style: normal;
     font-weight: 700;
-    font-display: swap ;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Inter';
@@ -24,5 +24,5 @@
          url("/dev/russian-travel/vendor/fonts/Inter-Black.woff2") format('woff2');
     font-style: normal;
     font-weight: 900;
-    font-display: swap ;
+    font-display: swap;
 }
