@@ -1,4 +1,4 @@
-.place__website_heading{
+.place__website-heading{
 max-width: 456px;
 font-weight: 400;
 font-size: 12px;
@@ -7,13 +7,13 @@ letter-spacing: 2px;
 color: #AAAAAA;
 }
 @media screen and (max-width: 768px){
-    .place__website_heading{
+    .place__website-heading{
         max-width: 352px;
     }
     
 }
 @media screen and (max-width: 320px){
-    .place__website_heading{
+    .place__website-heading{
         max-width: 288px;
     }
     

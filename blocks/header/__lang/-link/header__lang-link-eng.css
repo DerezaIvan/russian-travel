@@ -1,12 +1,11 @@
-.lang__rus{
+.header__lang-link-eng{
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
     margin: 0;
-    text-decoration: underline;
 }
 @media screen and (max-width: 320px){
-    .lang__rus {
+    .header__lang-link-eng {
         font-size: 18px;
         line-height: 20px;
     }

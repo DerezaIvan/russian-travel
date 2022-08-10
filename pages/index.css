@@ -5,10 +5,10 @@
 
 /*Header*/
 @import url(/dev/russian-travel/blocks/header/header.css);
-@import url(/dev/russian-travel/blocks/logo__header/logo__header.css);
-@import url(/dev/russian-travel/blocks/lang/lang__link.css);
-@import url(/dev/russian-travel/blocks/lang/lang__rus.css);
-@import url(/dev/russian-travel/blocks/lang/lang__eng.css);
+@import url(/dev/russian-travel/blocks/header/__logo/header__logo.css);
+@import url(/dev/russian-travel/blocks/header/__lang/-link/header__lang-link.css);
+@import url(/dev/russian-travel/blocks/header/__lang/-link/header__lang-link-rus.css);
+@import url(/dev/russian-travel/blocks/header/__lang/-link/header__lang-link-eng.css);
 
 /*Lead*/
 @import url(/dev/russian-travel/blocks/lead/lead.css);
@@ -35,12 +35,12 @@
 @import url(/dev/russian-travel/blocks/place/place.css);
 @import url(/dev/russian-travel/blocks/place/__title/place__title.css);
 @import url(/dev/russian-travel/blocks/place/__website/place__website.css);
-@import url(/dev/russian-travel/blocks/place/__website/place__website_heading.css);
-@import url(/dev/russian-travel/blocks/place/__website/place__website_link.css);
+@import url(/dev/russian-travel/blocks/place/__website/place__website-heading.css);
+@import url(/dev/russian-travel/blocks/place/__website/place__website-link.css);
 @import url(/dev/russian-travel/blocks/place/content/place__content.css);
-@import url(/dev/russian-travel/blocks/place/content/place__content_illustration.css);
-@import url(/dev/russian-travel/blocks/place/content/place__content_paragraphs.css);
-@import url(/dev/russian-travel/blocks/place/content/place__content_paragraph.css);
+@import url(/dev/russian-travel/blocks/place/content/place__content-illustration.css);
+@import url(/dev/russian-travel/blocks/place/content/place__content-paragraphs.css);
+@import url(/dev/russian-travel/blocks/place/content/place__content-paragraph.css);
 
 /*Cover*/
 @import url(/dev/russian-travel/blocks/cover/cover.css);
@@ -50,7 +50,7 @@
 
 /*Footer*/
 @import url(/dev/russian-travel/blocks/footer/footer.css);
-@import url(/dev/russian-travel/blocks/footer/__content/_info/footer__content_info.css);
+@import url(/dev/russian-travel/blocks/footer/__content/_info/footer__content-info.css);
 @import url(/dev/russian-travel/blocks/footer/__links/footer__links.css);
 @import url(/dev/russian-travel/blocks/footer/__link/footer__link.css);
 @import url(/dev/russian-travel/blocks/footer/__copyright/footer__copyright.css);
