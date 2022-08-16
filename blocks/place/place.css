@@ -1,8 +1,10 @@
 .place {
     max-width: 984px;
     min-height: 660px;
-    position: relative;
-    margin: 80px auto 0 auto;
+    display: grid;
+    grid-template-columns: 460px 456px;
+    grid-template-rows: 152px 460px;
+    column-gap: 40px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,14 +19,21 @@
     .place {
         max-width: 720px;
         min-height: 581px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+
     }
 
-}
+    @media screen and (max-width: 425px) {
+        .place {
+            max-width: 320px;
+            min-height: 1042px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
 
-@media screen and (max-width: 425px) {
-    .place {
-        max-width: 320px;
-        min-height: 1042px;
+        }
+
     }
-
-}
