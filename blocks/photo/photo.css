@@ -7,15 +7,29 @@
     gap: 16px;
 }
 
-@media screen and (max-width: 768px){
-    .photo{
+@media screen and (max-width: 1024px) {
+    .photo {
+        max-width: 928px;
         margin: 88px auto;
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     }
-    
+
 }
-@media screen and (max-width: 320px){
-    .photo{
-      margin: 58px auto;
+
+@media screen and (max-width: 768px) {
+    .photo {
+        max-width: 720px;
+        margin: 88px auto;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     }
-    
+
+}
+
+@media screen and (max-width: 425px) {
+    .photo {
+        max-width: 288px;
+        margin: 58px auto;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
 }

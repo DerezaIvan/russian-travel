@@ -1,4 +1,4 @@
-.lead__subtitle{
+.lead__subtitle {
     font-family: 'Inter';
     color: #fff;
     width: 100%;
@@ -11,8 +11,8 @@
     margin: 32px auto 0 auto;
 }
 
-@media screen and (max-width: 320px) {
-    .lead__subtitle{
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
         max-width: 288px;
         max-height: 40px;
         font-size: 16px;
@@ -20,5 +20,5 @@
         text-align: center;
         margin: 16px auto 0 auto;
     }
-    
+
 }

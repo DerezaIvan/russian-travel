@@ -1,4 +1,4 @@
-.footer__links{
+.footer__links {
     display: flex;
     flex-wrap: nowrap;
     list-style: none;
@@ -6,13 +6,13 @@
     margin: 0;
 }
 
-@media screen and (max-width: 320px){
-    .footer__links{
-       display: flex;
-       flex-direction: column;
-       row-gap: 32px;
-       padding: 0;
-        
+@media screen and (max-width: 425px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        padding: 0;
+
     }
-    
+
 }

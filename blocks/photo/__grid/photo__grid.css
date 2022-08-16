@@ -1,4 +1,4 @@
-.photo__grid{
+.photo__grid {
     object-fit: cover;
-    width: 100%;
+    max-width: 100%;
 }

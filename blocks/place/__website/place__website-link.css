@@ -1,15 +1,17 @@
-.place__website-link{
-align-self: flex-start;
-max-width: 456px;
-height: 22px;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-text-decoration-line: underline;
-color: #FFFFFF;
+.place__website-link {
+    align-self: flex-start;
+    max-width: 456px;
+    height: 22px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
 
 }
 
-.place__website-link:hover{
+.place__website-link:hover {
     opacity: 0.8;
 }

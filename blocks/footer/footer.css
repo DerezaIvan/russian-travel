@@ -1,6 +1,6 @@
-.footer{
+.footer {
     background: #2A2C2F;
-    max-width: 1184px;
+    max-width: calc(100% - 48px*2);
     width: 100%;
     min-height: 18px;
     height: 100%;
@@ -8,30 +8,33 @@
     padding-top: 92px;
     box-sizing: border-box;
 }
-@media screen and (max-width: 1024px){
-    .footer{
-       max-width: 928px;
-       min-height: 18px;
-        
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+        min-height: 18px;
+
     }
-    
+
 }
-@media screen and (max-width: 768px){
-    .footer{
+
+@media screen and (max-width: 768px) {
+    .footer {
         max-width: 720px;
         min-height: 18px;
         padding-top: 88px;
     }
-    
+
 }
-@media screen and (max-width: 320px){
-    .footer{
+
+@media screen and (max-width: 425px) {
+    .footer {
         max-width: 186px;
         min-height: 310px;
         margin: 0;
         padding-top: 64px;
 
-        
+
     }
-    
+
 }

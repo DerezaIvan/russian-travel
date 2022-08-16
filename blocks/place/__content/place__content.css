@@ -1,16 +1,16 @@
-.place__content{
+.place__content {
     display: flex;
     justify-content: space-between;
     margin: 48px 0 0;
 }
 
-@media screen and (max-width: 768px){
-    .place__content{
+@media screen and (max-width: 768px) {
+    .place__content {
         display: flex;
         flex-direction: column;
         padding-top: 30%;
         margin: 0;
-        
+
     }
-    
+
 }

@@ -1,23 +1,26 @@
-.intro__text{
-width: 100%;
-max-width: 690px;
-font-weight: 400;
-font-size: 16px;
-line-height: 163%;
-color: #FFFFFF;
-margin: 40px 0 0;
+.intro__text {
+    width: 100%;
+    max-width: 690px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 40px 0 0;
 }
 
-@media screen and (max-width: 768px){
-    .intro__text{
+@media screen and (max-width: 768px) {
+    .intro__text {
         max-width: 720px;
     }
-    
+
 }
-@media screen and (max-width: 320px){
-    .intro__text{
+
+@media screen and (max-width: 425px) {
+    .intro__text {
         max-width: 288px;
         min-height: 520px;
     }
-    
+
 }
