@@ -1,6 +1,7 @@
 .place {
     max-width: 984px;
     min-height: 660px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: 460px 456px;
     grid-template-rows: 152px 460px;
@@ -25,7 +26,7 @@
 
 
     }
-
+}
     @media screen and (max-width: 425px) {
         .place {
             max-width: 320px;
