@@ -44,15 +44,16 @@
 @media screen and (max-width: 768px) {
     .cover__link {
         max-width: 768px;
-        min-height: 200px;
+        min-height: 480px;
         margin: 90px auto 0 auto;
     }
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .cover__link {
         max-width: 320px;
+        min-height: 200px;
         margin: 66px auto 0 auto;
 
     }
