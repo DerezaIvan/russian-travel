@@ -25,11 +25,18 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
+    .header {
+        max-width: 425px;
+        padding-top: 19px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 424px) {
     .header {
         max-width: 288px;
-        padding-top: 19px;
-        margin: 0 16px;
     }
 
 }
