@@ -9,6 +9,7 @@
     text-decoration: none;
     position: relative;
     min-height: 740px;
+    width: 100%;
 
 }
 
@@ -50,9 +51,8 @@
 
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 767px) {
     .cover__link {
-        max-width: 425px;
         min-height: 200px;
         margin: 66px auto 0 auto;
 
