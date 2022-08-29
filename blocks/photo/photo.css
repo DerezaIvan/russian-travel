@@ -1,32 +1,35 @@
 .photo {
-    width: 100%;
-    max-width: 1184px;
-    margin: 92px auto 0 auto;
     display: grid;
+    max-width: 1184px;
+    margin: 92px auto 0;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     gap: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .photo {
         max-width: 928px;
+        width: calc(100% - 24px*2);
+        gap: 16px;
 
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .photo {
         max-width: 720px;
+        width: calc(100% - 16px*2);
+        gap: 12px;
+        margin: 88px auto 0;
 
     }
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .photo {
-        max-width: 288px;
-        margin: 58px auto 0 auto;
+        margin: 58px auto 0;
 
     }
 
