@@ -1,4 +1,19 @@
 .lead__illustration {
     width: 100%;
     object-fit: cover;
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__illustration {
+        margin-top: 54px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .lead__illustration {
+        margin-top: 40px;
+    }
+
 }

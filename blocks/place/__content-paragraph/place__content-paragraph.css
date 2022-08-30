@@ -24,7 +24,7 @@
     .place__content-paragraph {
         max-width: 352px;
         font-size: 16px;
-        margin-top: 32px auto 0 auto;
+        margin: 32px auto 0 auto;
     }
 
 }
